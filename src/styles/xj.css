@@ -1,0 +1,48 @@
+/*
+ * TAG OVERRIDES
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,600,700&display=swap');
+
+body {
+  margin: 0;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+div,
+body,
+button,
+input {
+  font: 19px/24px 'Barlow', sans-serif;
+  color: #333333;
+  border-width: 0 0 2px 0;
+  border-radius: 0;
+}
+
+.h1 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.logo {
+  background: url(../img/hbi_logo.svg) center center no-repeat;
+  background-size: contain;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  height: 2.5rem;
+  display: block;
+}
+
+.title {
+  border-bottom: 1px solid #d4d4d4;
+  text-transform: uppercase;
+}
+
+.p {
+  max-width: 20rem;
+  padding: 2rem;
+  display: inline-block;
+}
