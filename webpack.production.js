@@ -6,8 +6,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = env => ({
   entry: './src/index.jsx',
-  mode: 'development',
-  devtool: 'source-map',
+  mode: 'production',
   output: {
     path: __dirname + '/dist',
     filename: 'bundle.[contenthash].js'
@@ -19,6 +18,9 @@ module.exports = env => ({
       title: 'X Journalism'
     })
   ],
+  optimization: {
+    minimize: true
+  },
   module: {
     rules: [{
       test: /\.m?(js|jsx)$/,
