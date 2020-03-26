@@ -182,11 +182,11 @@ a {
 }
 
 /* Overrides */
-.jss2 {
+.jss2, .MuiTypography-root, .MuiBox-root {
   background-color: #ffffff !important;
 }
 
-.jss39 {
+.jss39, .MuiTypography-body1 {
   background-color: #ffffff !important;
   font-size: 0.85rem !important;
   font-weight: 500 !important;
@@ -207,5 +207,19 @@ button.MuiButtonBase-root.MuiIconButton-root:first-of-type:after {
   width: 7rem;
   right: -6.2rem;
   top: 13px;
+}
 
+.fullwidth {
+  margin-bottom: 23rem;
+}
+
+.distribution {
+  position: absolute;
+  left: 0;  
+  background: url(../img/distribution.svg) center no-repeat;
+  width: 100vw;
+  height: 20rem;
+  background-size: 100%;
+  position: absolute;
+  left: 0;  
 }

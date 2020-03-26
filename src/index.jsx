@@ -23,9 +23,9 @@ const showTerm = term => {
   <p>
     <h5 class="h5">Sources</h5>
     <ul class="sources">
-      <li>${term.source_1_citation} ${term.source_1_doi ? '<a class="a--small" href="'+ term.source_1_doi +' target="_blank">→</a>' : ''}</li>
-      <li>${term.source_2_citation} ${term.source_2_doi ? '<a class="a--small" href="'+ term.source_2_doi +' target="_blank">→</a>' : ''}</li>
-      <li>${term.source_3_citation} ${term.source_3_doi ? '<a class="a--small" href="'+ term.source_3_doi +' target="_blank">→</a>' : ''}</li>
+      <li>${term.source_1_citation} ${term.source_1_doi ? '<a class="a--small" href="'+ term.source_1_doi +'" target="_blank">→</a>' : ''}</li>
+      <li>${term.source_2_citation} ${term.source_2_doi ? '<a class="a--small" href="'+ term.source_2_doi +'" target="_blank">→</a>' : ''}</li>
+      <li>${term.source_3_citation} ${term.source_3_doi ? '<a class="a--small" href="'+ term.source_3_doi +'" target="_blank">→</a>' : ''}</li>
   </p>
   `
 }
@@ -38,6 +38,8 @@ const closeTerm = () => {
 detailCloseElem.addEventListener("click", closeTerm);
 
 ReactDOM.render(
-  <div><XJournalism initialZoom={1} onClick={term => showTerm(term)} /></div>,
+  <div>
+    <XJournalism from={2020} to={1840} initialZoom={1} onClick={term => showTerm(term)} />
+  </div>,
   document.getElementsByClassName('app')[0]
 );
