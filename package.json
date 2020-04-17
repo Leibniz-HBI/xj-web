@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:development": "webpack-dev-server --config webpack.development.js --port 8081",
-    "deploy": "webpack --config webpack.production.js && git subtree push --prefix dist origin gh-pages"
+    "deploy": "webpack --config webpack.production.js && . deploy_pages.sh"
   },
   "author": "",
   "license": "ISC",
