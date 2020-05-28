@@ -72,11 +72,13 @@ a {
   display: inline-block;
 }
 
-.download {
+.links {
   position: fixed;
+  display: flex;
   top: 15px;
   right: 15px;
   z-index: 2;
+  align-items: center;
 }
 
 .app {
@@ -96,6 +98,12 @@ a {
   border-radius: 26px;
   font-weight: 400;
   cursor: pointer;
+}
+
+.button--github {
+  background: url(../img/github.svg) left no-repeat;
+  background-size: contain;
+  height: 1.5rem;
 }
 
 .button--fullwidth {
