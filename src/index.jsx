@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import './styles/xj.css';
 
-import XJournalism from './lib/lokaler-xjournalism.js';
+import XJournalism from './lib/lokaler-xjournalism-v3.js';
 
 const bodyElem = document.getElementsByTagName("body")[0];
 const detailElem = document.getElementsByClassName("detail")[0];
@@ -20,6 +20,7 @@ const showTerm = term => {
     This journalism term first appeared in a New York Times article from ${term.appeared_year.substr(0,10)},
     the number of Google Scholar search results is ${term.search_results_gscholar}. We decided to file it under "${term.categories}".
   </p>
+  ${term.definition ? '<p><h5 class="h5">Definition</h5>'+term.definition+'</p>' : ''}
   <p>
     <h5 class="h5">Sources</h5>
     <ul class="sources">

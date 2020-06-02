@@ -44,12 +44,13 @@ a {
 .h4 {}
 
 .h5 {
-  margin-bottom: 0rem;
+  /*margin-bottom: 0rem;*/
   margin-top: 1rem;
 }
 
 .sources {
   font-size: .85rem;
+  margin-top: 0;
 }
 
 .logo {
