@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import './styles/xj.css';
 
-import XJournalism from './lib/lokaler-xjournalism-v3.js';
+import XJournalism from './lib';
 
 const bodyElem = document.getElementsByTagName("body")[0];
 const detailElem = document.getElementsByClassName("detail")[0];
@@ -40,7 +40,7 @@ detailCloseElem.addEventListener("click", closeTerm);
 
 ReactDOM.render(
   <div>
-    <XJournalism from={2020} to={1840} initialZoom={1} onClick={term => showTerm(term)} />
+    <XJournalism from={1840} to={2020} initialZoom={1} onClick={term => showTerm(term)} />
   </div>,
   document.getElementsByClassName('app')[0]
 );

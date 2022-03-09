@@ -10,7 +10,7 @@ module.exports = env => ({
   devtool: 'source-map',
   output: {
     path: __dirname + '/dist',
-    filename: 'bundle.[contenthash].js'
+    filename: 'bundle.js'
   },
   plugins: [
     new CleanWebpackPlugin(),
