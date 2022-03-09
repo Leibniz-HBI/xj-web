@@ -15,7 +15,7 @@ npm run start:development
 ```
 
 ### Deployment
-Deploy to Github Pages with `npm run deploy`. Alternatively, build with `webpack --config webpack.production.js` and drag the resulting production files in `/dist` manually to the Github Pages branch in this repository.
+To deploy to Github Pages, first build the website with `webpack --config webpack.production.js` and drag the resulting production files in `/dist` manually to the Github Pages branch `gh-pages` in this repository. Alternatively, if your authenticated against the repo, you can try `npm run deploy`.
 
 ### Update spreadsheet
 Follow these rules if you do research on new journalism terms and are tasked to add these to the spreadsheet. First, new terms should be added to the sheet "todo". The sheet "xjournalism" is our nice sheet, which should only contain terms that we agreed to add and that have metadata.
@@ -33,7 +33,7 @@ Follow these rules if you do research on new journalism terms and are tasked to 
   * definition_url => if available, the URL to the definition
 
 ### Updated list in web app
-To update the mapping table, simply replace `src/data/data.csv` with a fresh export from our Google spreadsheet and re-run build/wait for the development server to reload.
+To update the mapping table, simply replace `src/lib/data/data.csv` with a fresh export from our Google spreadsheet and re-run build/wait for the development server to reload.
     
 ### Copyright
 (c) Leibniz HBI, Hamburg 2022
