@@ -40,7 +40,7 @@ detailCloseElem.addEventListener("click", closeTerm);
 
 ReactDOM.render(
   <div>
-    <XJournalism from={1840} to={2020} initialZoom={1} onClick={term => showTerm(term)} />
+    <XJournalism from={1840} to={2021} initialZoom={1} onClick={term => showTerm(term)} />
   </div>,
   document.getElementsByClassName('app')[0]
 );

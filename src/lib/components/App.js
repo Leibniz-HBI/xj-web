@@ -7,12 +7,15 @@ import { ZOOM_LEVELS } from '../constants'
 
 const App = ({ from, to, categories = [], initialZoom = 0, onClick }) => {
   const [zoomIndex, setZoomIndex] = React.useState(initialZoom)
-  const segments = useDataAsSegments({
+  let segments = useDataAsSegments({
     from,
     to,
     zoom: ZOOM_LEVELS[zoomIndex],
     categories,
   })
+
+  segments.reverse()
+  
   return (
     <Box bgcolor="background.default">
       <Controls zoomIndex={zoomIndex} onZoomChange={setZoomIndex} />

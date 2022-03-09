@@ -3,7 +3,7 @@ import { WIDTH } from '../constants'
 import Circle from './CircleSvg'
 import Typography from '@material-ui/core/Typography'
 
-const PADDING = 20
+const PADDING = 15
 const RADIUS = 6
 const TERM_HEIGHT = RADIUS * 2 + 30
 const Segment = ({

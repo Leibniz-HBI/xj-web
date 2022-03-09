@@ -5,7 +5,7 @@ import Circle from './CircleSvg'
 import { WIDTH } from '../constants'
 
 const HEIGHT = 120
-const RADIUS = 2
+const RADIUS = 4
 const PADDING = RADIUS
 const SPACING_CIRCLE = RADIUS * 2 + 4
 
