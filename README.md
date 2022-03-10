@@ -15,7 +15,7 @@ npm run start:development
 ```
 
 ### Deployment
-To deploy to Github Pages, first build the website with `webpack --config webpack.production.js` and drag the resulting production files in `/dist` manually to the Github Pages branch `gh-pages` in this repository. Alternatively, if you are authenticated against the repo, you can try `npm run deploy`.
+To deploy to Github Pages, first build the website with `npm run build` and drag the resulting production files in `/dist` manually to the Github Pages branch `gh-pages` in this repository. Alternatively, if you are authenticated against the repo, you can try `npm run deploy`.
 
 ### Update spreadsheet
 Follow these rules if you are tasked with researching new journalism terms and add these to the spreadsheet. Temporarily, newest/unverified terms should be added to the sheet "todo". Then they should move into "xjournalism", our nice sheet, which only contains terms that we agreed to add and that have the metadata described below in more detail.
