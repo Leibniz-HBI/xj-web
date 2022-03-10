@@ -32,6 +32,12 @@ Follow these rules if you are tasked with researching new journalism terms and a
   * definition => if available, a definition for the term
   * definition_url => if available, the URL to the definition
 
+### General spreadsheet conventions
+  * Terms should always be translated to English
+  * Take extra care with the category spellings, e.g. “Ogranization”
+  * Consolidate, where needed, e.g. “Hip-Hop” und “Hip-Hop-Entertainment”
+  * If in doubt about a term, discuss the term in Slack, e.g. “Policy Issues Surrounding Journalism” might not syntactically be a modifier plus "journalism" but rather a whole statement.
+
 ### Updated list in web app
 To update the mapping table, simply replace `src/lib/data/data.csv` with a fresh export from our Google spreadsheet and re-run build/wait for the development server to reload.
     
