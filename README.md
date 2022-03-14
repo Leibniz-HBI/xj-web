@@ -27,7 +27,7 @@ Follow these rules if you are tasked with researching new journalism terms and a
   * notable_names => any individuals associated with the term
   * appeared_year => open https://www.nytimes.com/search and search for the term as stated in column "term" encased in quotation marks, sort results by oldest first and enter the article date for the oldest result in the format yyyy-mm-dd in this column
   * search_results_gscholar => open https://scholar.google.com and search for the term as stated in column "term" encased in quotation marks, enter the number of search results in this column
-  * source_citation => research relevant journal articles and enter citations here
+  * source_citation => research relevant journal articles and enter citations in APA format here
   * source_doi => the full document object identifier URL for the respective article
   * definition => if available, a definition for the term
   * definition_url => if available, the URL to the definition
