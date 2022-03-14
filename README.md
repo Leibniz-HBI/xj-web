@@ -30,7 +30,7 @@ Follow these rules if you are tasked with researching new journalism terms and a
   * source_citation => research relevant journal articles and enter citations in APA format here
   * source_doi => the full document object identifier URL for the respective article
   * definition => if available, a definition for the term
-  * definition_url => if available, the URL to the definition
+  * definition_url => if available, the URL to the definition (or another APA citation)
 
 ### General spreadsheet conventions
   * Terms should always be translated to English
